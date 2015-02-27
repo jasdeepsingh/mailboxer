@@ -146,7 +146,7 @@ config.email_method = :notifications_email
 config.name_method = :display_name
 ```
 
-Will use the method `notification_email(object)` instead of `mailboxer_email(object)` and `display_name` for `name`.
+Will use the method `notifications_email(object)` instead of `mailboxer_email(object)` and `display_name` for `name`.
 
 Using default or custom method names, if your model doesn't implement them, Mailboxer will use dummy methods so as to notify you of missing methods rather than crashing.
 
